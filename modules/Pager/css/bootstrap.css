@@ -1,0 +1,39 @@
+table.paginated th {
+  background-color: #eee;
+  color: #555;
+}
+
+table.paginated td.icon {
+  width: 1px;
+}
+
+.pager-order {
+  background: transparent no-repeat url(images/arrows.png);
+  display: inline-block;
+  width: 14px;
+  height: 10px;
+  vertical-align: middle;
+}
+
+.pager-clickable { cursor: pointer }
+
+.pager-order.desc { background-position: 0 0 }
+.pager-order.asc { background-position: -14px 0 }
+.pager-order.desc2 { background-position: -28px 0 }
+.pager-order.asc2 { background-position: -42px 0 }
+
+#pager-pagesize-input {
+  width: 4em;
+}
+
+table.paginated td.footer {
+  padding-top: 16px;
+}
+
+table.paginated ul.pagination {
+  margin: 0;
+}
+
+table.paginated ul.pagination span.glyphicon{
+  top: 0;
+}
