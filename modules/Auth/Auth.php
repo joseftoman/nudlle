@@ -5,6 +5,10 @@ use Nudlle\Module\Profile as Profile;
 
 abstract class Auth extends \Nudlle\Core\Module implements \Nudlle\Iface\Auth {
 
+  const DOMAIN = 'auth';
+  const AUTH_FAIL = 0;
+  const AUTH_OK = 1;
+
   const PARAM_USERNAME = 'auth_user';
   const PARAM_PASSWORD = 'auth_pass';
   const SESSION_USERNAME = 'username';

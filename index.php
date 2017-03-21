@@ -54,9 +54,6 @@ const MODULES_DOMAIN = 'modules';
 /* End of configuration */
 /************************/
 
-// Neccessary for asynchronous requests - they pass on the SID as a parameter
-// ini_set('session.use_only_cookies', 0);
-
 spl_autoload_register('Nudlle\autoload');
 
 ini_set('default_charset', ENCODING);
